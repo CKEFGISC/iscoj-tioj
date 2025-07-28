@@ -74,9 +74,10 @@ td {
 .well-lg .table {
   width: 100%;
 }
-/* Very Strange is that this one is not working since missing comma between h1 h2 h3 h4 h5 h6,
- however, the result is correct since I don't want the color brown in h1, h2, h3, h4, h5, h6 
- The correct one should be h1, h2, h3, h4, h5, h6*/
+/* The following selector is missing commas between h1, h2, h3, h4, h5, and h6. 
+ This results in the styles not being applied as intended. However, this is acceptable 
+ in this case because the color brown is not desired for these elements. 
+ The correct syntax would be: h1, h2, h3, h4, h5, h6 */
 /* h1 h2 h3 h4 h5 h6 {
   font-family: "sf-pro";
   color: #948C75;
