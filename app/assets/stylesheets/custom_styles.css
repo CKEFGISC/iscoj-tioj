@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "monofont";
+  font-family: "sf-pro";
   src: url("SF-Pro.ttf");
+}
+
+@font-face {
+  font-family: "monofont";
+  src: url("/fonts/DejaVuSansMono.ttf");
 }
 
 .ds-panel {
@@ -56,7 +61,7 @@ th {
   color: #30617C;
 }
 body {
-  font-family: "monofont";
+  font-family: "sf-pro";
   background-color: #dde4ef;
   text-overflow: ellipsis;
 }
@@ -69,8 +74,8 @@ td {
 .well-lg .table {
   width: 100%;
 }
-h1 h2 h3 h4 h5 h6 {
-  font-family: "monofont";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "sf-pro";
   color: #948C75;
 }
 .navbar-toggle {
@@ -249,8 +254,8 @@ tr.ole > td.highlight-if-self { /* dashboard self */
   color: #effafa !important;
 }
 
-// add this, but i don't know how to compile lol
-// - Huey
+/* add this, but i don't know how to compile lol
+   - Huey */
 body {
 	overflow-x: hidden;
 }
