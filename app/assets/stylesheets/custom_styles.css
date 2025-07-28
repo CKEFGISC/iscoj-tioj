@@ -74,10 +74,15 @@ td {
 .well-lg .table {
   width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
+/* Very Strange is that this one is not working since missing comma between h1 h2 h3 h4 h5 h6,
+ however, the result is correct since I don't want the color brown in h1, h2, h3, h4, h5, h6 
+ The correct one should be h1, h2, h3, h4, h5, h6*/
+/* h1 h2 h3 h4 h5 h6 {
   font-family: "sf-pro";
   color: #948C75;
-}
+} */
+
+
 .navbar-toggle {
   padding-top: 0px !important;
 }
