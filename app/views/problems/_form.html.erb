@@ -29,7 +29,7 @@
   </div>
   <div class="field">
     <%= f.label :setter, "Setter: " %>
-	<%= f.select :setter, options_from_collection_for_select(
+	  <%= f.select :setter, options_from_collection_for_select(
     	User.where(admin: true), :id, :nickname, @problem.persisted? ? @problem.setter&.id : current_user.id
     	),
     	{ prompt: "Search or select a user" },
@@ -466,12 +466,16 @@
 <% end %>
 
 <style>
-.flex-container-bottom-align {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
+  .flex-container-bottom-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .ts-wrapper {
+    display: none;
+  }
 </style>
 
 <script>
